@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dashboard{
+    display: flex;
+    min-height: 100vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.menu-lateral{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    min-width: 250px;
+}
+
+.header{
+    display: flex;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+.bloco{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.blocoitem{
+    background-color: cyan;
+    height: 100px;
+    flex: 1;
+}
+
+.blocao{
+    display: flex;
+    padding: 10px;
+    padding-top: 0px;
+    gap: 10px;
+}
+
+.blocaoitem1{
+    background-color: orange;
+    flex: 2;
+    height: 400px;
+}
+
+.blocaoitem2{
+    background-color: mediumseagreen;
+    flex: 1;
+    height: 400px;
+}

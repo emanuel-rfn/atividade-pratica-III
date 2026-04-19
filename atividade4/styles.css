@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.menu{
+    display: flex;
+}
+
+.menuitem{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.blocos{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+}
+
+.item{
+    background-color: green;
+    flex: 1 1 calc(50% - 10px);
+    height: 100px;
+}
